@@ -4,6 +4,8 @@ const refs = {
   stopBtn: document.querySelector('[data-stop]'),
   bodyArea: document.querySelector('body'),
 };
+//counter for "Interval"
+let timerId = null;
 //destructuring
 const { startBtn, stopBtn, bodyArea } = refs;
 //type of cursor on a button that can be clicked
