@@ -12,12 +12,10 @@ form.addEventListener('submit', handleSabmit);
 function handleSabmit(evt) {
   evt.preventDefault();
   const data = evt.currentTarget.elements;
-  let delay = Number(data.delay.value);
-  data.delay.value = '';
-  const step = Number(data.step.value);
-  data.step.value = '';
+  let delay = Number(data.delay.value);  
+  const step = Number(data.step.value);  
   const amount = Number(data.amount.value);
-  data.amount.value = '';
+  form.reset();
 
 //Processing the result of the execution (resolve) or non-execution (reject) of the current Promise
 // with the display of the corresponding message on the screen
