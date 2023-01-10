@@ -14,6 +14,7 @@ function handleSabmit(evt) {
   const data = evt.currentTarget.elements;
   let delay = Number(data.delay.value);  
   const step = Number(data.step.value);  
+<<<<<<< HEAD
   const amount = Number(data.amount.value);  
   form.reset();
 
