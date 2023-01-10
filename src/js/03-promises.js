@@ -16,6 +16,9 @@ function handleSabmit(evt) {
   const step = Number(data.step.value);  
 <<<<<<< HEAD
   const amount = Number(data.amount.value);  
+=======
+  const amount = Number(data.amount.value);
+>>>>>>> 5d769b75df8d0e2c26166c69b46d7c42d3a86422
   form.reset();
 
 //Processing the result of the execution (resolve) or non-execution (reject) of the current Promise
